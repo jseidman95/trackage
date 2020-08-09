@@ -1,0 +1,5 @@
+---
+  email: "<your email here>"
+  password: "<your password here>" # often you need to generate an app password, example: https://support.google.com/accounts/answer/185833?hl=en
+  shippoToken: "<your shippo API token here>"
+  email_smtp_server: "<your email's SMTP server here>" # something like this: "imap.gmail.com"
