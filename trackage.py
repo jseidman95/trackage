@@ -87,7 +87,7 @@ def colorForStatus(status):
 
     return switcher.get(status, "")
 
-def read_email_from_gmail():
+def read_email():
 
     try:
         mail = imaplib.IMAP4_SSL(SMTP_SERVER)
@@ -142,4 +142,4 @@ def read_email_from_gmail():
         print str(e)
         exit()
 
-read_email_from_gmail()
+read_email()
